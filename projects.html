@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — S. Harini</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">S. <span>Harini</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- PROFILE PHOTO — inline in navbar, right side -->
+      <div class="nav-profile" title="S. Harini">
+        <img src="profile.jpg" alt="S. Harini" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html" style="color:rgba(255,255,255,0.5);">Home</a></li>
+          <li class="breadcrumb-item active">Projects</li>
+        </ol>
+      </nav>
+      <h1>My Projects</h1>
+      <p class="mt-2">Work I've built — solving real problems with creative thinking.</p>
+    </div>
+  </section>
+
+  <!-- PROJECT SECTION -->
+  <section class="section-pad section-alt">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-title reveal">Featured Project</h2>
+          <div class="section-line mx-auto reveal"></div>
+          <p class="section-sub mx-auto reveal">Built under pressure, with passion — at a 24-hour hackathon.</p>
+        </div>
+      </div>
+
+      <div class="row g-5 align-items-start">
+        <!-- MAIN PROJECT CARD -->
+        <div class="col-lg-8 reveal">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="mb-3 d-flex gap-2 flex-wrap">
+                <span class="project-tag">🏆 Hackathon</span>
+                <span class="project-tag">🤖 AI / Robotics</span>
+                <span class="project-tag">👥 Team Project</span>
+              </div>
+              <h3>A Multi Robot Decision Intelligence</h3>
+              <p
+                style="color:rgba(255,255,255,0.65); font-size:0.9rem; margin-top:0.6rem; position:relative; z-index:1;">
+                An AI-powered system enabling coordinated decision-making across multiple autonomous robots.
+              </p>
+            </div>
+            <div class="project-body">
+              <h6 style="font-family:'Playfair Display',serif; font-weight:600; color:var(--navy); margin-bottom:1rem;">
+                Project Overview</h6>
+              <p style="color:var(--gray); font-size:0.92rem; line-height:1.8;">
+                This project was developed during an intense 24-hour hackathon, where our team tackled the challenge of
+                making multiple robots work together intelligently without human intervention. The system applies basic
+                AI-based decision-making logic to enable each robot to assess its environment, communicate with its
+                peers, and collectively decide on the best course of action.
+              </p>
+              <p style="color:var(--gray); font-size:0.92rem; line-height:1.8; margin-top:0.8rem;">
+                The core idea is to simulate how a team of autonomous agents can dynamically coordinate tasks, avoid
+                conflicts, and achieve a shared goal — much like how a well-organized human team operates. This has
+                powerful real-world applications in warehouse automation, search-and-rescue operations, and smart
+                manufacturing.
+              </p>
+
+              <h6
+                style="font-family:'Playfair Display',serif; font-weight:600; color:var(--navy); margin: 1.8rem 0 1rem;">
+                Key Features</h6>
+              <div class="row g-2">
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="feature-dot"></div>
+                    <div>
+                      <div style="font-weight:600; font-size:0.9rem; color:var(--navy);">Real-time Decision Making</div>
+                      <div style="color:var(--gray); font-size:0.82rem;">Robots evaluate and respond to dynamic
+                        situations instantly without delays.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="feature-dot"></div>
+                    <div>
+                      <div style="font-weight:600; font-size:0.9rem; color:var(--navy);">Multi-Robot Coordination</div>
+                      <div style="color:var(--gray); font-size:0.82rem;">Seamless communication and collaboration
+                        between multiple autonomous agents.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="feature-dot"></div>
+                    <div>
+                      <div style="font-weight:600; font-size:0.9rem; color:var(--navy);">Task Allocation</div>
+                      <div style="color:var(--gray); font-size:0.82rem;">Smart distribution of tasks based on each
+                        robot's capabilities and position.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-item">
+                    <div class="feature-dot"></div>
+                    <div>
+                      <div style="font-weight:600; font-size:0.9rem; color:var(--navy);">AI-Based Logic</div>
+                      <div style="color:var(--gray); font-size:0.82rem;">Decision trees and rule-based AI to guide robot
+                        behaviors intelligently.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 pt-3" style="border-top:1px solid var(--gray-lt);">
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                  <span style="font-size:0.82rem; color:var(--gray); font-weight:500;">Technologies:</span>
+                  <span class="skill-chip" style="font-size:0.78rem;"><span class="dot"></span>Python</span>
+                  <span class="skill-chip" style="font-size:0.78rem;"><span class="dot"></span>AI Logic</span>
+                  <span class="skill-chip" style="font-size:0.78rem;"><span class="dot"></span>Multi-Agent
+                    Systems</span>
+                  <span class="skill-chip" style="font-size:0.78rem;"><span class="dot"></span>Algorithm Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-lg-4 d-flex flex-column gap-4">
+          <!-- Hackathon badge -->
+          <div class="custom-card p-4 reveal" style="border-left:4px solid var(--gold);">
+            <div class="hackathon-badge mb-3">
+              <i class="fas fa-trophy"></i> 24-Hour Hackathon
+            </div>
+            <p style="color:var(--gray); font-size:0.88rem; line-height:1.7;">
+              Developed under real hackathon conditions — limited time, high pressure, and full team collaboration. This
+              experience sharpened my problem-solving, teamwork, and rapid prototyping skills.
+            </p>
+          </div>
+
+          <!-- Team info -->
+          <div class="custom-card p-4 reveal">
+            <h6 style="font-family:'Playfair Display',serif; font-weight:600; color:var(--navy); margin-bottom:1rem;">
+              <i class="fas fa-users me-2" style="color:var(--teal);"></i>Team Experience
+            </h6>
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex align-items-center gap-3">
+                <div
+                  style="width:36px;height:36px;background:var(--teal-lt);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:0.9rem;">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <div>
+                  <div style="font-weight:600; font-size:0.85rem; color:var(--navy);">Idea Ideation</div>
+                  <div style="font-size:0.78rem; color:var(--gray);">Collaboratively scoped and designed the solution
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <div
+                  style="width:36px;height:36px;background:var(--teal-lt);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:0.9rem;">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div>
+                  <div style="font-weight:600; font-size:0.85rem; color:var(--navy);">Development</div>
+                  <div style="font-size:0.78rem; color:var(--gray);">Contributed to core AI logic and system design
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <div
+                  style="width:36px;height:36px;background:var(--teal-lt);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--teal);font-size:0.9rem;">
+                  <i class="fas fa-presentation-screen"></i>
+                </div>
+                <div>
+                  <div style="font-weight:600; font-size:0.85rem; color:var(--navy);">Presentation</div>
+                  <div style="font-size:0.78rem; color:var(--gray);">Pitched the project to judges and mentors</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- What I learned -->
+          <div class="custom-card p-4 reveal"
+            style="background: linear-gradient(135deg, var(--navy), #0d4a5c); border:none;">
+            <h6 style="font-family:'Playfair Display',serif; font-weight:600; color:var(--white); margin-bottom:1rem;">
+              <i class="fas fa-star me-2" style="color:var(--gold);"></i>What I Learned
+            </h6>
+            <ul style="color:rgba(255,255,255,0.7); font-size:0.85rem; line-height:2; padding-left:1.2rem; margin:0;">
+              <li>Rapid prototyping under pressure</li>
+              <li>AI decision-making fundamentals</li>
+              <li>Cross-functional team collaboration</li>
+              <li>System design & architecture thinking</li>
+              <li>Communicating technical ideas clearly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MORE COMING -->
+  <section class="section-pad">
+    <div class="container text-center">
+      <div class="reveal" style="max-width:500px; margin:0 auto;">
+        <div
+          style="width:72px;height:72px;background:linear-gradient(135deg,var(--teal-lt),#c8eef5);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-size:1.8rem;">
+          🚀</div>
+        <h3 class="section-title">More Projects Coming Soon</h3>
+        <p style="color:var(--gray); font-size:0.9rem; margin-top:0.8rem;">
+          I'm currently working on new projects involving data analysis, UI/UX design, and web development. Stay tuned!
+        </p>
+        <a href="contact.html" class="btn-primary-custom mt-4" style="display:inline-flex;">
+          <i class="fas fa-handshake"></i> Collaborate With Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="mb-1"><span class="footer-name">S. Harini</span> — 1st MSc Statistics, Kongu Engineering College</p>
+      <p style="font-size:0.8rem;">Designed with <span style="color:var(--teal);">♥</span> · 2025 · <a
+          href="contact.html">Get in Touch</a></p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
